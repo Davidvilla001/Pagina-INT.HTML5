@@ -1,0 +1,104 @@
+
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+       border-radius: 8px;
+       background-image: url("https://i.pinimg.com/originals/86/54/e0/8654e0d1b110725d3fdf9a9c12f1c8e7.jpg");
+       
+}
+
+main {
+    max-width: 1366px;
+    margin: auto;
+    background-color: orange;
+}
+
+header {
+    height: 300px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    max-width: 100%;
+    height: 250;
+}
+
+
+nav {
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 50px;
+    font-family: "Indie Flower", cursive;
+}
+
+nav a:hover{
+    background-color: orange;
+}
+
+section {
+    background-color: orangered;
+    padding: 20px;
+}
+
+
+.personaje {
+    display: flex;
+    background-color: orange;
+    margin-bottom: 20px;
+    padding: 20px;
+ 
+}
+
+
+.foto {
+    flex: 1;
+    margin-right: 20px;
+    border-bottom: black solid 4px;
+    
+}
+
+.foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.texto {
+    flex: 2;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+     font-family: "Montserrat", sans-serif;
+     background-image: url("https://culturexchange1.wordpress.com/wp-content/uploads/2013/01/mzlcolm-in-the-middle.jpg")
+     
+}
+.texto a{
+    color: orange;
+    text-decoration: none;
+
+}
+.texto a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+footer {
+    height: 250px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
